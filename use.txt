@@ -1,0 +1,14 @@
+All endpoints:
+
+1 - http://127.0.0.1:8000/api/admin/signup/  :  For admin Signup
+2 - http://127.0.0.1:8000/api/teacher/signup/  : For Teacher Signup
+3 - http://127.0.0.1:8000/api/student/signup/  : For Student Signup
+4 - http://127.0.0.1:8000/api/login/  : For Login
+5 - http://127.0.0.1:8000/api/admin/dashboard/  : For Admin List all Users
+6 - http://127.0.0.1:8000/api/teacher/dashboard/  : For Teacher List only Students
+7 - http://127.0.0.1:8000/api/student/dashboard/  : For Student See their Details
+8 - http://127.0.0.1:8000/api/admin/add-teacher/  : For Admin add Tecaher
+9 - http://127.0.0.1:8000/api/admin/add-student/  : For Admin add Student
+10 - http://127.0.0.1:8000/api/teacher/add-student/  : For Tecaher add Student
+11 - http://127.0.0.1:8000/api/send-reset-password-email/  : For Send Reset Email
+12 - http://127.0.0.1:8000/api/reset-password/<uid>/<token>/  : For Rest Password
